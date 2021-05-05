@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>java_school_maven</artifactId>
+        <artifactId>classloader</artifactId>
         <groupId>org.mpetrov</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>classloader</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>plugin_manager</module>
-        <module>encrypted_class_loader</module>
-    </modules>
+    <artifactId>encrypted_class_loader</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
