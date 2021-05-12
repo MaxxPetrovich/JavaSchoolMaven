@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="plugin_manager" />
+        <module name="cache_proxy" />
         <module name="encrypted_class_loader" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="encrypted_class_loader" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
