@@ -7,10 +7,9 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
-import java.util.stream.Collectors;
 
 public class Streams<T> {
-    private ArrayList<T> list;
+    private List<T> list;
 
     public static <T> Streams<T> of(List<T> list) {
         Streams<T> stream = new Streams<>();
@@ -19,7 +18,7 @@ public class Streams<T> {
     }
 
     public Streams<T> filter(Predicate<T> predicate) {
-        ArrayList<T> innerList = new ArrayList<>();
+        List<T> innerList = new ArrayList<>();
         for (T item : list) {
             if (predicate.test(item)) innerList.add(item);
         }
