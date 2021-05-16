@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="plugin_manager" />
-        <module name="cache_proxy" />
         <module name="encrypted_class_loader" />
+        <module name="cache_proxy" />
+        <module name="stream_like_hw" />
       </profile>
     </annotationProcessing>
   </component>
