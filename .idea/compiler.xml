@@ -10,6 +10,7 @@
         <module name="encrypted_class_loader" />
         <module name="cache_proxy" />
         <module name="stream_like_hw" />
+        <module name="thread_pool" />
         <module name="factorial" />
       </profile>
     </annotationProcessing>
